@@ -1,0 +1,101 @@
+.cabinet-org-item
+{
+    width: 100%;
+    height: 15em;
+    display: inline-flex;
+    background: rgba(0,0,0,0.2);
+}
+.cabinet-org-item img
+{
+    width: 14em;
+    height: 14em;
+    padding: 0.5em;
+}
+.cabinet-org-info
+{
+    padding-top: 0.5em;
+    width: 100%;
+    margin-right: 5px;
+}
+.cabinet-org-info h2
+{
+    border-bottom: black inset 1px;
+}
+.cabinet-content-list
+{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cabinet-type-name
+{
+    border-bottom: 1px inset black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.cabinet-news-list
+{
+    display: inline-block;
+    width: 50%;
+    margin-right: 2%;
+}
+.cabinet-content-item
+{
+    display: inline-flex;
+    width: 100%;
+    padding: 5px 0 5px;
+}
+.cabinet-item-id
+{
+    width: 5%;
+}
+.cabinet-item-title
+{
+    width: 60%;
+}
+
+.cabinet-item-date
+{
+    width: 25%;
+}
+.cabinet-item-icon
+{
+    width: 10%;
+    justify-content: flex-end;
+    display: flex;
+}
+.cabinet-post-list
+{
+    display: inline-block;
+    width: 50%;
+}
+.form-group
+{
+    margin-left: 10%;
+    width: 80%;
+}
+.form-group img
+{
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.create-item
+{
+    width: 80%;
+    height: 100%;
+    margin: 10px 10%;
+}
+.create-item label,input,textarea
+{
+    width: 100%;
+}
+.create-form
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+}
+

@@ -1,0 +1,546 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+* a
+{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Oswald', sans-serif;
+}
+* p
+{
+    font-size: 1em;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+* h2,h3,h4,h1
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+* ul
+{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 2em;
+}
+* img
+{
+    max-width: 100%;
+}
+body
+{
+    margin-left: 10%;
+    width: 80%;
+}
+header
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/*nav and top-menu */
+.header
+{
+    display: inline-block;
+    width: 100%;
+}
+.logo-box-top
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    border-bottom: 1px inset wheat;
+
+}
+.logo-box-bottom
+{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 15pt;
+    border-bottom: 1px inset wheat;
+}
+.account-menu
+{
+    font-size: 13pt;
+    display: inline-flex;
+    width: 70%;
+    height: 100%;
+    justify-content: flex-end;
+    color: wheat;
+    padding-right: 10px;
+}
+.account-menu a
+{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.account-menu p
+{
+    margin: 0 5px 0 5px;
+}
+.logo-box
+{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background: black;
+}
+.logo-box-img
+{
+    padding: 5px 0 0 0;
+    display: inline-block;
+    width: 30%;
+}
+.logo-img
+{
+    width: 200px;
+    height: 45px;
+}
+.logo-text
+{
+    color: white;
+    margin-right: 10px;
+}
+.nav-menu
+{
+    width: 100%;
+    display: inline-flex;
+}
+.nav-menu a
+{
+    color: white;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-menu li
+{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav-menu  li:hover
+{
+    background: wheat;
+    color: white;
+}
+/*nav and top-menu end*/
+.body
+{
+    margin: 10px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10px;
+}
+.body img
+{
+    width: 100%;
+    height: 100%;
+}
+/*banner*/
+.content-banner
+{
+    width: 100%;
+    height: 200px;
+    background: black;
+}
+/*banner end*/
+/*mid-menu*/
+.mid-menu
+{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 3em;
+    margin-bottom: 5px;
+}
+.mid-menu-logo
+{
+    position: relative;
+}
+.mid-menu img
+{
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    bottom: -0.5em;
+}
+.mid-menu h2
+{
+    font-size: 15pt;
+    line-height: 2em;
+    height: 100%;
+    position: absolute;
+    left: 4.5em;
+    color: bisque;
+}
+.mid-menu ul
+{
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+.mid-menu li
+{
+    height: 100%;
+    width: 17%;
+}
+.mid-menu a
+{
+    font-size: 15pt;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    color: beige;
+}
+.restaurants-menu a:hover
+{
+    color: gold;
+    text-decoration: none;
+    border-bottom: gold 5px inset;
+}
+.restaurants-item
+{
+    color: gold;
+}
+/*mid-menu end*/
+/*grid-content*/
+.grid-content-list
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: 5px;
+}
+.grid-content-item
+{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.grid-content-item-info
+{
+    font-size: 1em;
+    position: absolute;
+    bottom: -8em;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 10em;
+    transition: all 0.5s;
+    background: rgba(0, 0, 0,0.6);
+}
+.grid-content-list :hover .grid-content-item-info
+{
+    transition:all 0.5s;
+    bottom: -1em;
+}
+/*post-List end*/
+
+/*one-content*/
+.center-block
+{
+    display: inline-flex;
+    width: 100%;
+}
+.content-item
+{
+    justify-content: center;
+    width: 100%;
+}
+.content-item-org-info
+{
+    display: inline-flex;
+    width: 100%;
+    height: 100px;
+    background: rgb(230,74,74);
+    background: linear-gradient(90deg, rgba(230,74,74,1) 0%, rgba(239,240,60,0.9808298319327731) 26%, rgba(140,218,55,1) 83%, rgba(0,212,255,1) 100%);
+    align-items: center;
+}
+.content-item-org-info img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.content-item-info
+{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5px;
+}
+.content-item-info img
+{
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+}
+.content-item-info-text
+{
+    width: 100%;
+    padding-left: 50px;
+    margin-bottom: 15px ;
+}
+.content-item-info-text h3
+{
+    font-size: 2em;
+    text-align: center;
+    padding: 0 10%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.content-item-info-text p
+{
+    font-size: larger;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Source Serif Pro', serif
+}
+/*one-content end*/
+
+/*horizon-content*/
+.contentList
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+.contentList-item
+{
+    display: inline-flex;
+    width: 100%;
+    height: 250px;
+}
+.contentList :hover > div
+{
+    background: rgba(0, 0, 0,0.4);
+}
+.contentList-item a
+{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+.contentList-item img
+{
+    width: 50%;
+    height: 100%;
+}
+.contentList-item-info
+{
+    overflow: hidden;
+    width: 80%;
+    padding:0 15px;
+}
+.contentList-item-info strong
+{
+    display: none;
+}
+.contentList-item-info span
+{
+    overflow: hidden;
+    box-sizing: border-box;
+    display: block;
+}
+
+.contentList-item-info h2,h3
+{
+    padding: 5px;
+    font-size: 1.5em;
+}
+.contentList-item-info p
+{
+    padding: 5px;
+    font-size: 1em;
+}
+/*horizon-content end*/
+
+/*recommendation-block*/
+.block-name
+{
+    font-size: 1.7em;
+}
+.recommendation-list
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid black;
+}
+.recommendation-list :hover .recommendation-info
+{
+    transition:all 0.5s;
+    bottom: -1em;
+}
+.recommendation-item
+{
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.recommendation-info
+{
+    font-size: 1em;
+    position: absolute;
+    bottom: -8em;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 10em;
+    transition: all 0.5s;
+    background: rgba(0, 0, 0,0.6);
+}
+/*recommendation-block-end*/
+/*login page*/
+
+.login-page
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+.login-box
+{
+    display: flow-root;
+    justify-content: center;
+    width: 30%;
+    height: 500px;
+    /*margin: 55px 35%;*/
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000078;
+    overflow: hidden;
+}
+.login-box-long
+{
+    display: flow-root;
+    justify-content: center;
+    width: 30%;
+    height: 600px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000078;
+    overflow: hidden;
+}
+.login-box-longer
+{
+    display: flow-root;
+    justify-content: center;
+    width: 30%;
+    height: 750px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000078;
+    overflow: hidden;
+}
+.login-box-label
+{
+    margin-top: 5px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20%;
+}
+.login-box-logo
+{
+    height: 80px;
+    margin-left: 8%;
+    margin-bottom: 20%;
+}
+.login-form
+{
+    width: 100%;
+    display: inline-block;
+}
+
+.login-form-input
+{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    border: 0px solid black;
+    font-size: 1em;
+    background: whitesmoke;
+    padding: 5px;
+    border-bottom: gold solid 1px;
+    outline: none;
+    margin-left: 7%;
+    margin-bottom: 15px;
+}
+.login-box-button
+{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    border: 0px solid black;
+    font-size: 1.2em;
+    padding: 5px;
+    border-bottom: gold solid 1px;
+    outline: none;
+    margin-left: 8.5%;
+    margin-bottom: 15px;
+    background: gold;
+    border-radius: 10px;
+    margin-right: 8.5%;
+}
+.login-box-block
+{
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+/*login page end*/
+/*footer*/
+.footer
+{
+    display: inline-flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top: 1px inset gold;
+    color: wheat;
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+/*footer end*/
+
+.one-info a
+{
+    display: none;
+}
